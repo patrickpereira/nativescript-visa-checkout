@@ -1,6 +1,8 @@
 *.js
 *.js.map
 *.log
+*.d.ts
+!index.d.ts
 !scripts/*.js
 demo/app/*.js
 !demo/karma.conf.js
@@ -11,3 +13,4 @@ demo/lib
 demo/platforms
 demo/node_modules
 node_modules
+typingz*

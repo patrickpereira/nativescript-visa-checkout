@@ -1,1 +1,0 @@
-OTHER_LDFLAGS = $(inherited) -all_load -ObjC -lc++

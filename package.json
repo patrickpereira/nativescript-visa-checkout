@@ -30,7 +30,10 @@
     "NativeScript",
     "JavaScript",
     "Android",
-    "iOS"
+    "iOS",
+    "Visa",
+    "Payments",
+    "VisaCheckout"
   ],
   "author": {
     "name": "Patrick Pereira",
