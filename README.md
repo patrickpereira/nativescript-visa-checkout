@@ -16,6 +16,18 @@ import { VisaCheckout } from 'nativescript-visa-checkout';
 let visa = new VisaCheckout('your api key', true); // for sandbox
 ```
 
+Then in your view, you can use the button:
+
+```
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+  loaded="pageLoaded" class="page"
+  xmlns:Visa="nativescript-visa-checkout">
+  <StackLayout class="p-20">
+    <Visa:TNSVisaButton />
+  </StackLayout>
+</Page>
+```
+
 ## Demo
 
 You can checkout the demo in this repo with the following:
