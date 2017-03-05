@@ -1,7 +1,7 @@
 {
   "name": "nativescript-visa-checkout",
   "version": "1.0.1",
-  "description": "Not working yey - Still under development, all contributions are welcome!",
+  "description": "The Visa Checkout Mobile SDK for NativeScript - allowing merchants to quickly build and implement a native checkout application for iOS or Android-enabled devices.",
   "main": "visa-checkout",
   "typings": "index.d.ts",
   "nativescript": {
@@ -30,12 +30,22 @@
     "NativeScript",
     "JavaScript",
     "Android",
-    "iOS"
+    "iOS",
+    "Visa",
+    "Payments",
+    "VisaCheckout"
   ],
   "author": {
     "name": "Patrick Pereira",
     "email": "patrick@rightbeforebeta.com"
   },
+  "contributors": [
+    {
+      "name": "Nathan Walker",
+      "email": "walkerrunpdx@gmail.com",
+      "url": "https://github.com/NathanWalker"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/patrickpereira/nativescript-visa-checkout/issues"
   },

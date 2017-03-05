@@ -1,1 +1,1 @@
-OTHER_LDFLAGS = $(inherited) -all_load -ObjC -lc++
+EMBEDDED_CONTENT_CONTAINS_SWIFT = true

@@ -1,18 +1,12 @@
-import {Observable} from 'data/observable';
-import {VisaCheckout} from 'nativescript-visa-checkout';
-
-declare var VisaCheckoutFramework: any;
+import { Observable } from 'data/observable';
+import { VisaCheckout } from 'nativescript-visa-checkout';
 
 export class HelloWorldModel extends Observable {
-  public message: string;
   private visaCheckout: VisaCheckout;
 
   constructor() {
     super();
 
-    console.dump(VisaCheckoutFramework);
-
-    this.visaCheckout = new VisaCheckout();
-    this.message = this.visaCheckout.message;
+    let visa = new VisaCheckout('B5PLIZ4O21K57Z42K4HB216zuZRVdOxN-JDOi8OdgyCcJTqgA', true);
   }
 }
