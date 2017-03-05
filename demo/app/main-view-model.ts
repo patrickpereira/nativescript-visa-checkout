@@ -1,7 +1,5 @@
-import {Observable} from 'data/observable';
-import {VisaCheckout} from 'nativescript-visa-checkout';
-
-declare var VisaCheckoutFramework: any;
+import { Observable } from 'data/observable';
+import { VisaCheckout } from 'nativescript-visa-checkout';
 
 export class HelloWorldModel extends Observable {
   private visaCheckout: VisaCheckout;
@@ -9,8 +7,6 @@ export class HelloWorldModel extends Observable {
   constructor() {
     super();
 
-    console.dump(VisaCheckoutFramework);
-
-    this.visaCheckout = new VisaCheckout();
+    let visa = new VisaCheckout('B5PLIZ4O21K57Z42K4HB216zuZRVdOxN-JDOi8OdgyCcJTqgA', true);
   }
 }

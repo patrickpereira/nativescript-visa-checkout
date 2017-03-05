@@ -1,5 +1,9 @@
 demo/
 screenshots/
+typingz*
+lib-typings
+documentation
+scripts
 *.gif
 *.png
 *.log

@@ -14,3 +14,4 @@ demo/platforms
 demo/node_modules
 node_modules
 typingz*
+!lib-typings/objc!VisaCheckoutSDK.d.ts
